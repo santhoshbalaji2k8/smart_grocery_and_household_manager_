@@ -1,0 +1,27 @@
+RUNNING THE SMART GROCERY & HOUSEHOLD MANAGER IN PYTHON IDLE (WINDOWS)
+
+1. Extract the corrected ZIP into a NEW folder, for example:
+   Desktop\Smart_Grocery_Household_Manager_Audited
+2. Open Command Prompt inside that folder.
+3. Install the required libraries:
+   python -m pip install -r requirements.txt
+4. Open Python IDLE.
+5. Choose File > Open and select run_app.py from the extracted folder.
+6. Press F5 (Run > Run Module).
+7. Keep the IDLE Shell open while using the application.
+
+FIRST RUN
+- A new empty SQLite database is created automatically.
+- Sample data is NOT inserted automatically.
+- To preview sample products, open Settings > Load Optional Sample Data.
+- Do not copy an old smart_grocery.db into the new folder if you want a clean test.
+
+RUN TESTS
+Open Command Prompt in the project folder and run:
+   python -m unittest discover -s tests -v
+
+IMPORTANT
+- Back up smart_grocery.db before replacing the project folder or restoring a database.
+- Barcode lookup/scanning has been removed.
+- Cloud sync, account login and live retailer pricing are not enabled.
+- The automated tests do not replace a visual test of the Windows desktop interface.

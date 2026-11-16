@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.db
+*.db-wal
+*.db-shm
+*.restore_tmp
+backups/
+logs/
+.coverage
+.pytest_cache/
+dist/
+build/

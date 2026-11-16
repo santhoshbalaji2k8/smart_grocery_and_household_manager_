@@ -1,0 +1,7 @@
+customtkinter>=5.2.2
+openpyxl>=3.1.2
+matplotlib>=3.8.0
+reportlab>=4.0.0
+pyinstaller>=6.0.0
+phonenumbers>=8.13.50
+pycountry>=24.6.1
